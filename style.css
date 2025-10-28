@@ -1,0 +1,36 @@
+body {
+    background-color: #2b2b2b;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1, h2, p, a {
+    color: whitesmoke;
+    font-family: monospace;
+}
+
+.center {
+    text-align: center;
+}
+
+.no-margin * {
+    margin: 0;
+}
+
+a.button, #answers a {
+    display: block;
+    text-align: center;
+    font-size: 200%;
+    background-color: #2b0f0f;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 1%;
+    text-decoration: none;
+    border-radius: 5vw;
+}
+
+#answers {
+    display: block;
+}
